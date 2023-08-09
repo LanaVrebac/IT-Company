@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 12:19:09 PM
+    Author     : frontend
+*/
+
+
+/*
+
+> 0px   XS - NO NAME
+
+
+> 576px SM - small devices
+
+
+
+> 768px MD  - medium devices
+
+
+> 992px  LG    large devices
+
+
+
+> 1200px  XL   extra large devices
+
+*/
+@media( min-width:320px){
+ .about-item{
+     background: rgba(255,255,255,0.5);
+     padding: 100px 20px;
+         
+ }
+ .carousel-item .caption p{
+     background: rgba(255,255,255,0.5);
+     padding: 100px 20px;
+ } 
+ 
+   
+      
+         
+  
+}
+
+    
+
+
+
+
+@media( min-width:576px){
+   .about{background-size: auto 50%;}
+   .about-item{top:0;
+   right:0;
+   }
+   
+}
+   
+   
+    
+
+
+
+
+
+@media(min-width:768px){
+    
+    
+    
+
+    }  
+    
+
+
+
+@media(min-width:992px){
+    
+    .about{
+    padding:200px 0;}
+    
+ .navbar-nav .nav-link{
+     border-top:2px solid transparent; } 
+ .navbar-nav .nav-item{
+     margin-left: 10px;
+ }
+  .home .carousel-item .caption h1{
+      font-size:60px;
+      line-height: 80px;
+      letter-spacing: 1px;
+   
+}  
+
+ .portfolio .portfolio-item .portfolio-caption{
+    
+     bottom:30px;
+     left:40px;
+     right:40px;
+ }
+     
+   
+
+}
+
+
+
+@media(min-width:1200px){
+    
+    .container{
+        max-width:1170px;
+    }
+    
+    
+}
